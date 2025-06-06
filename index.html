@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <span style="font-weight: bolder; font-size: larger">Bhogesh Vura</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>Hello, I'm Bhogesh Vura</h1>
+          <p>Java FullStack Intern.</p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="Profile Image.jpeg" alt="Profile Image" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+          As a Software Development Intern at KodNest, I am gaining hands-on
+          experience in both backend and frontend technologies. My role involves
+          developing and maintaining Java applications using Core Java and
+          Advanced Java (JDBC, Hibernate, Spring Boot). I am also proficient in
+          designing responsive web interfaces with HTML, CSS, and JavaScript,
+          ensuring cross-browser compatibility and optimal performance.
+          Additionally, I work with MySQL for database management, performing
+          tasks such as schema design, data extraction, and optimization.
+          Collaborating with cross-functional teams, I participate in code
+          reviews and contribute to project documentation, continuously
+          enhancing my technical skills and staying updated with the latest
+          industry trends.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">Java</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">JDBC</div>
+        <div class="skill">Hibernate</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">Git</div>
+      </div>
+    </section>
+
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>SalesSavvy - E-commerce Fullstack Application</h3>
+          <p>
+            I developed a fullstack e-commerce project called SalesSavvy. For
+            the frontend, I used React.js to build a responsive and intuitive
+            user interface. On the backend, I leveraged Java Spring Boot to
+            create a robust and scalable API. The project utilizes MySQL as the
+            database to manage and store data efficiently.
+          </p>
+          <div class="project-tech">
+            <span style="font-weight: bolder">Skills Used:</span>HTML, CSS, JavaScript, React, Java,
+            SpringBoot, MySQL
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>React CRUD App</h3>
+          <p>
+            A React application demonstrating Create, Read, Update, and Delete
+            operations.
+          </p>
+          <div class="project-tech">
+            <span style="font-weight: bolder">Skills Used:</span> React,
+            JavaScript
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal portfolio built with HTML, CSS, and JavaScript to showcase
+            my work.
+          </p>
+          <div class="project-tech">
+            <span style="font-weight: bolder">Skills Used:</span> HTML, CSS,
+            JavaScript
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Employee Management System</h3>
+          <p>
+            A Java Swing based desktop application to manage employee records
+            efficiently.
+          </p>
+          <div class="project-tech">
+            <span style="font-weight: bolder">Skills Used:</span> Java,
+            Hibernate, Swing, MySQL
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <a href="mailto:vurabhogesh@gmail.com">Email</a> |
+        <a
+          href="https://www.linkedin.com/in/bhogesh-vura-40588a247/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        
+        <a href="https://github.com/BHOGESH4I9" target="_blank">GitHub</a>
+      </div>
+      <form onsubmit="event.preventDefault(); alert('Message sent!');">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+ 
+  
+    <footer class="footer">
+  <div class="footer-container">
+    <p>Contact Info. 
+      <a href="mailto:vurabhogesh@gmail.com" style="color: #c9c2c2;">vurabhogesh@gmail.com</a>
+    </p>
+    <div class="footer-icons">
+      <a href="https://github.com/BHOGESH4I9" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bhogesh-vura-40588a247/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
